@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.login-signin{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    left: 600px;
+}
+
+.login-signin img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.login-signin .user-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.login-signin button{
+    outline: 0;
+    border: 0;
+    background-color: #FC6736;
+    color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container{
+    width: 450px;
+    max-height: 100vh;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+   }
+
+   .container .header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   }
+
+.container .header h1{
+    color: #FC6736;
+    font-family: "Satisfy", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container .form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.container .form input{
+    padding: 10px;
+    width: 60%;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #0C2D57;
+    border-radius: 20px;
+}
+
+.container .form button{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    background-color: #FC6736;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+ul li{
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.list .delete-btn{
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #FC6736;
+    cursor: pointer;
+}
+
+.list .check{
+    border: 1px solid #FC6736;
+    background-color: #FC6736;
+    color: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.list .square{
+    border: 2px solid grey;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
